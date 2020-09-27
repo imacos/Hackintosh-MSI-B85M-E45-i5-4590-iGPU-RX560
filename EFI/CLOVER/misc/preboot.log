@@ -1,0 +1,308 @@
+0:100  0:100  MemLog inited, TSC freq: 3299997169
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 6.12.2019,  0:27:38 (GMT)
+0:100  0:000  Starting Clover revision: 4903 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -mc --no-usb -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sky/src/edk2/Conf -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 13 | OS: 10.14.4 | XCODE: 10.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,88DA2166-FBED-465F-B1E3-92FE2921B0DB,0xFA000,0x32000) @CCB60318
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = 0420
+0:100  0:000  SmbiosTable.Type17->SerialNumber = BAA60000
+0:100  0:000  SmbiosTable.Type17->PartNumber =                   
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = 0420
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 53180000
+0:100  0:000  SmbiosTable.Type17->PartNumber =                   
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = 0420
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 25220000
+0:100  0:000  SmbiosTable.Type17->PartNumber =                   
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = 0420
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 7D3B0000
+0:100  0:000  SmbiosTable.Type17->PartNumber =                   
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'MS-7817' with board 'B85M-E45 (MS-7817)'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=306C3
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
+0:100  0:000   The CPU supported turbo
+0:100  0:000  MSR 0x35               40004
+0:100  0:000  MSR 0xE2 before patch 1E008400
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              00080838_F3012100
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 33.0/8
+0:100  0:000  Turbo: 35/36/37/37
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 3300 MHz
+0:100  0:000  TSC: 3300 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 0C00 class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 0412 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 4600 (Intel)
+0:100  0:000  PCI (00|00:03.00) : 8086 0C0C class=040300
+0:100  0:000  PCI (00|00:14.00) : 8086 8C31 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 8C3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1A.00) : 8086 8C2D class=0C0320
+0:100  0:000  PCI (00|00:1B.00) : 8086 8C20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 8C10 class=060400
+0:100  0:000  PCI (00|00:1C.02) : 8086 8C14 class=060400
+0:100  0:000  PCI (00|02:00.00) : 10EC 8168 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:1C.03) : 8086 244E class=060401
+0:100  0:000  PCI (00|03:00.00) : 1B21 1080 class=060400
+0:100  0:000  PCI (00|00:1D.00) : 8086 8C26 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 8C50 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 8C02 class=010601
+0:100  0:000  PCI (00|00:1F.03) : 8086 8C22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 0 bytes
+0:103  0:002  EFI\CLOVER\config.plist loaded: Success
+0:103  0:000  === [ GetListOfThemes ] ===================================
+0:103  0:000  - [00]: CCC
+0:105  0:001  === [ Found config plists ] ===============================
+0:105  0:000  - config.plist
+0:105  0:000  === [ GetEarlyUserSettings ] ==============================
+0:105  0:000  timeout set to 6
+0:105  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:105  0:000  ForceKextsToLoad: 1 requested
+0:105  0:000   - [0]: System\Library\Extensions\AppleIntelKBLGraphicsFramebuffer.kext
+0:105  0:000  KextsToPatch: 16 requested
+0:105  0:000   - [00]: AppleAHCIPort (External icons patch) :: BinPatch :: data len: 8
+0:105  0:000   - [01]: com.apple.iokit.IOAHCIBlockStorage (TRIM) :: BinPatch :: data len: 11
+0:105  0:000   - [02]: com.apple.driver.usb.AppleUSBXHCIPCI (USB) :: MatchOS: 10.12.X :: BinPatch :: data len: 7
+0:105  0:000   - [03]: com.apple.driver.usb.AppleUSBXHCI (USB) :: MatchOS: 10.13.6 :: BinPatch :: data len: 8
+0:105  0:000   - [04]: IONVMeFamily (NVMe) :: MatchOS: 10.14.2 :: BinPatch :: data len: 9
+0:105  0:000   - [05]: IONVMeFamily (NVMe) :: MatchOS: 10.14.2 :: BinPatch :: data len: 8
+0:105  0:000   - [06]: IONVMeFamily (NVMe) :: MatchOS: 10.13.x :: BinPatch :: data len: 9
+0:105  0:000   - [07]: IOUSBHostFamily (USB) :: MatchOS: 10.14.2 :: BinPatch :: data len: 10
+0:105  0:000   - [08]: com.apple.driver.usb.AppleUSBXHCI (USB) :: MatchOS: 10.14.2 :: BinPatch :: data len: 11
+0:105  0:000   - [09]: com.apple.iokit.IOUSBHostFamily (usb) :: MatchOS: 10.14.3 :: BinPatch :: data len: 8
+0:105  0:000   - patch disabled at config
+0:105  0:000   - [10]: com.apple.driver.usb.AppleUSBXHCI (usb) :: MatchOS: 10.14.3 :: BinPatch :: data len: 9
+0:105  0:000   - patch disabled at config
+0:105  0:000   - [11]: com.apple.iokit.IOUSBHostFamily (usb) :: MatchOS: 10.14.3 :: BinPatch :: data len: 8
+0:105  0:000   - patch disabled at config
+0:105  0:000   - [12]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #1 10.14.x modify by DalianSky(credit ydeng)) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:105  0:000   - [13]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)
+) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:105  0:000   - [14]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #3 10.14.x modify by DalianSky(credits PMheart)
+) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:105  0:000   - [15]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #4 10.14.x modify by DalianSky(credits PMheart)
+) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:105  0:000  KernelToPatch: 8 requested
+0:105  0:000   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: MatchOS: 10.13 :: data len: 8
+0:105  0:000   - [01]: Disable panic kext logging on 10.13 debug kernel (credit Vandroiy) :: data len: 6
+0:105  0:000   - [02]: Disable panic kext logging on 10.13 release kernel (credit Vandroiy) :: data len: 6
+0:105  0:000   - [03]: NoLabel :: data len: 43
+0:105  0:000   - [04]: NoLabel :: data len: 11
+0:105  0:000   - [05]: NoLabel :: data len: 12
+0:105  0:000   - [06]: NoLabel :: data len: 12
+0:105  0:000   - [07]: NoLabel :: data len: 6
+0:105  0:000  Default theme: CCC
+0:105  0:000  Hiding entries with string Preboot
+0:105  0:000  Hiding entries with string Recovery
+0:105  0:000  Custom entry boot CUSTOM_BOOT_APPLE (0x0)
+0:105  0:000  ** Warning: unknown custom entry Type 'Other'
+0:105  0:000  === [ LoadDrivers ] =======================================
+0:106  0:001  Loading APFS.EFI  status=Success
+0:110  0:004   - driver needs connecting
+0:110  0:000  Loading EmuVariableUefi-64.efi  status=Success
+0:111  0:000  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:111  0:000  Loading FSInject-64.efi  status=Success
+0:112  0:000  Loading HFSPlus-64.efi  status=Success
+0:112  0:000   - driver needs connecting
+0:112  0:000  Loading NTFS.EFI  status=Success
+0:114  0:001   - driver needs connecting
+0:114  0:000  Loading OsxAptioFixDrv-64.efi  status=Success
+0:115  0:000  Loading Test2-2016.efi  status=Success
+0:115  0:000  3 drivers needs connecting ...
+0:115  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:115  0:000  HFS+ driver loaded
+0:115  0:000  APFS driver loaded
+0:115  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:230  0:114  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+0:240  0:010  === [ InitScreen ] ========================================
+0:240  0:000  Console modes reported: 4, available modes:
+0:240  0:000   - [01]: 80x25
+0:240  0:000   - [02]: 80x50
+0:240  0:000   - [03]: 100x31
+0:240  0:000   - [04]: 128x40 (current mode)
+0:240  0:000  SetMaxResolution: found best mode 4: 1920x1080
+0:429  0:189  Video mode change to mode #4: Success
+0:429  0:000   - set
+0:429  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,88DA2166-FBED-465F-B1E3-92FE2921B0DB,0xFA000,0x32000)
+0:430  0:000  Using embedded font: Success
+0:547  0:117  === [ GetMacAddress ] =====================================
+0:547  0:000  MAC address of LAN #0= 4C:CC:6A:04:78:50:
+0:547  0:000  === [ ScanSPD ] ===========================================
+0:547  0:000  Scanning SMBus [8086:8C22], mmio: 0xF7D19004, ioport: 0xF040, hostc: 0x11
+0:566  0:018  Slot: 0 Type 24 8192MB 1600MHz Vendor=A-DATA Technology PartNo= SerialNo=0B0A0A0600000000
+0:585  0:018  Slot: 1 Type 24 8192MB 1600MHz Vendor=A-DATA Technology PartNo= SerialNo=0503010800000000
+0:604  0:018  Slot: 2 Type 24 8192MB 1600MHz Vendor=A-DATA Technology PartNo= SerialNo=0205020200000000
+0:623  0:018  Slot: 3 Type 24 8192MB 1600MHz Vendor=A-DATA Technology PartNo= SerialNo=070D030B00000000
+0:623  0:000  === [ GetAcpiTablesList ] =================================
+0:623  0:000  Get Acpi Tables List from RSDT:
+0:623  0:000   - [00]: FACP  A M I len=132
+0:623  0:000   - [01]: APIC  A M I len=114
+0:623  0:000   - [02]: FPDT  A M I len=68
+0:623  0:000   - [03]: SSDT  Cpu0Ist len=1337
+0:623  0:000   - [04]: SSDT  CpuPm len=2776
+0:623  0:000   - [05]: MCFG  A M I len=60
+0:623  0:000   - [06]: HPET  A M I len=56
+0:623  0:000   - [07]: SSDT  SataTabl len=877
+0:623  0:000   - [08]: SSDT  SaSsdt  len=13608
+0:623  0:000   - [09]: ASF!   HCG len=165
+0:623  0:000   - [10]: DMAR  HSW  len=184
+0:623  0:000   - [11]: SSDT  IsctTabl len=2598
+0:623  0:000   - [12]: BGRT  A M I len=56
+0:623  0:000  Calibrated TSC Frequency = 3299997169 = 3299MHz
+0:623  0:000  === [ GetUserSettings ] ===================================
+0:623  0:000  Add 9 properties:
+0:623  0:000   - [00]: IntelGFX Key: AAPL00,PanelPowerDown, len: 4
+0:623  0:000    property disabled at config
+0:623  0:000   - [01]: IntelGFX Key: AAPL00,PanelCycleDelay, len: 4
+0:623  0:000    property disabled at config
+0:623  0:000   - [02]: IntelGFX Key: AAPL00,PanelPowerOn, len: 4
+0:623  0:000    property disabled at config
+0:623  0:000   - [03]: IntelGFX Key: hda-gfx, len: 10
+0:623  0:000    property disabled at config
+0:623  0:000   - [04]: IntelGFX Key: AAPL00,PanelPowerOff, len: 4
+0:623  0:000    property disabled at config
+0:623  0:000   - [05]: IntelGFX Key: AAPL00,PanelPowerUp, len: 4
+0:623  0:000    property disabled at config
+0:623  0:000   - [06]: IntelGFX Key: graphic-options, len: 4
+0:623  0:000    property disabled at config
+0:623  0:000   - [07]: IntelGFX Key: AAPL,GfxYTile, len: 4
+0:623  0:000    property disabled at config
+0:623  0:000   - [08]: IntelGFX Key: AAPL,Gfx324, len: 4
+0:623  0:000    property disabled at config
+0:623  0:000  USB FixOwnership: yes
+0:623  0:000  Dropping 5 tables:
+0:623  0:000   - [00]: Drop table  signature="MCFG" (4746434D)
+0:623  0:000           - set table: 4746434D,                0 to drop: yes
+0:624  0:000   - [01]: Drop table  signature="DMAR" (52414D44)
+0:624  0:000           - set table: 52414D44,                0 to drop: yes
+0:624  0:000   - [02]: Drop table  signature="SSDT" (54445353) table-id="ApCst" (0000007473437041)
+0:624  0:000           - set table: 54445353,       7473437041 to drop: no
+0:624  0:000   - [03]: Drop table  signature="SSDT" (54445353) table-id="ApIst" (0000007473497041)
+0:624  0:000           - set table: 54445353,       7473497041 to drop: no
+0:624  0:000   - [04]: Drop table  signature="MATS" (5354414D)
+0:624  0:000           - set table: 5354414D,                0 to drop: no
+0:624  0:000   - final DSDT Fix mask=00000010
+0:624  0:000  PatchesDSDT: 5 requested
+0:624  0:000   - [00]: (_DSM->XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:624  0:000   - [01]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:624  0:000   - [02]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:624  0:000   - [03]: (change PEGP to GFX0) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:624  0:000   - [04]: (Fix AsRock Z390 BIOS DSDT Device(RTC) bug) lenToFind: 8, lenToReplace: 8, Target Bridge: <null string>
+0:624  0:000  PluginType: 1
+0:624  0:000  Using ProductName from config: iMac14,2
+0:624  0:000  Using latest BiosVersion from clover
+0:624  0:000  BiosVersion: IM142.88Z.F000.B00.1902141634
+0:624  0:000  BiosReleaseDate: 02/14/2019
+0:624  0:000  Using EfiVersion from config: 134.0.0.0.0
+0:624  0:000  Using FirmwareFeatures from config: 0xE00FE137
+0:624  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+0:624  0:000  Board-ID set from config as Mac-27ADBB7B4CEE8E61
+0:624  0:000  BoardType: 0xA
+0:624  0:000  ChassisType: 0xD
+0:624  0:000  Converted CustomUUID 3910A33F-CE03-4DC2-9D31-4F21F8A996EA
+0:624  0:000  === [ Found DSDT tables ] =================================
+0:696  0:071  === [ ScanVolumes ] =======================================
+0:696  0:000  Found 14 volumes with blockIO
+0:696  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+0:696  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:696  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)
+0:697  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0xFFFF,0x0)
+0:697  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)
+0:699  0:002  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,0F55E2AC-2123-4849-8614-BE38E1CE9E50,0x22,0x40000)
+0:700  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F3541932-9BC3-4756-B8AE-DE59632C3CB5,0x40800,0x746C6000)
+0:701  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:701  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,DED0D3A7-1C9F-4140-BFC4-367ED57622B6,0x800,0xF9800)
+0:702  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:702  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,88DA2166-FBED-465F-B1E3-92FE2921B0DB,0xFA000,0x32000)
+0:702  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:705  0:002          This is SelfVolume !!
+0:705  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(3,GPT,FF1856FC-884E-4E02-B65D-5C258053D56A,0x12C000,0x8000)
+0:706  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(4,GPT,BD6374FF-877D-40B5-9D2E-F056B0698C84,0x134000,0x1DBBF000)
+0:706  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:707  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,3ABC4C6F-A341-475C-9F56-E59C873611CD,0x800,0x74706000)
+0:707  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:718  0:011  - [11]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(1,GPT,4A0E617A-6417-48A6-991F-EECC62E35C77,0x22,0x7FDE)
+0:719  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,078A5D88-FB93-4AE7-9E58-2C3F0317FD7D,0x8000,0x82000)
+0:719  0:000          Result of bootcode detection: bootable Windows (win)
+0:720  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(3,GPT,AC54FAA9-D646-4080-A452-E21A831B3CBE,0x8A000,0x1D13B000)
+0:721  0:000  PutNvramPlistToRtVars: nvram.plist not found
+0:721  0:000  No AudioIoProtocols, status=Not Found
+0:721  0:000  === [ InitTheme ] =========================================
+0:721  0:000  use night theme
+0:723  0:002  Using theme 'CCC' (EFI\CLOVER\themes\CCC)
+0:723  0:000  OS main and drive as badge
+0:723  0:000  file sound read: sound_night.wav Not Found
+0:723  0:000  file sound read: sound.wav Not Found
+0:725  0:001  Loading font from ThemeDir: Success
+0:725  0:000  theme inited
+0:725  0:000  Chosen theme CCC
+0:725  0:000  after NVRAM boot-args=nvda_drv=1 kext-dev-mode=1 rootless=0 debug=0x100 -disablegfxfirmware
+0:725  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+0:725  0:000  no AppleSMC protocol
+0:725  0:000  === [ AddCustomEntries ] ==================================
+0:725  0:000  Custom entry 0 FullTitle:"PhoenixOS" Path:"\EFI\Boot\grubx64.efi" Type:99 Flags:0x0 matching Volume:"7F033F3A-85B5-486D-9DBF-E360F87D3870"
+0:725  0:000      Checking volume "Develop" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F3541932-9BC3-4756-B8AE-DE59632C3CB5,0x40800,0x746C6000)) ... skipped
+0:725  0:000      Checking volume "b" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,DED0D3A7-1C9F-4140-BFC4-367ED57622B6,0x800,0xF9800)) ... skipped
+0:725  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,88DA2166-FBED-465F-B1E3-92FE2921B0DB,0xFA000,0x32000)) ... skipped
+0:725  0:000      Checking volume "WindowsOS" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(4,GPT,BD6374FF-877D-40B5-9D2E-F056B0698C84,0x134000,0x1DBBF000)) ... skipped
+0:725  0:000      Checking volume "Storage" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,3ABC4C6F-A341-475C-9F56-E59C873611CD,0x800,0x74706000)) ... skipped
+0:725  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,078A5D88-FB93-4AE7-9E58-2C3F0317FD7D,0x8000,0x82000)) ... skipped
+0:725  0:000      Checking volume "Macintosh HD" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(3,GPT,AC54FAA9-D646-4080-A452-E21A831B3CBE,0x8A000,0x1D13B000)) ... skipped
+0:725  0:000  === [ ScanLoader ] ========================================
+0:725  0:000  - [05]: 'Develop'
+0:753  0:027  - [06]: 'b'
+0:777  0:023  - [07]: 'EFI'
+0:782  0:005          AddLoaderEntry for Volume Name=EFI
+0:808  0:026          AddLoaderEntry for Volume Name=EFI
+0:808  0:000          skipped because entry is hidden
+0:808  0:000  - [09]: 'WindowsOS'
+0:832  0:023  - [10]: 'Storage'
+0:856  0:023  - [12]: 'EFI'
+0:880  0:023  - [13]: 'Macintosh HD'
+0:884  0:004          AddLoaderEntry for Volume Name=Macintosh HD
+0:886  0:002      hibernated: set as never
+0:912  0:025  === [ AddCustomTool ] =====================================
+0:914  0:002  found tool \EFI\CLOVER\tools\Shell64U.efi
+0:914  0:000  Checking EFI partition Volume 7 for Clover
+0:915  0:000   Found Clover
+0:915  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+0:918  0:002  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+0:929  0:010  === [ GetEfiBootDeviceFromNvram ] =========================
+0:929  0:000  Default boot entry not found
+0:929  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+0:929  0:000  DefaultIndex=-1 and MainMenu.EntryCount=8
+1:260  0:331  GUI ready
